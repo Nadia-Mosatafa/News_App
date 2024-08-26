@@ -11,7 +11,7 @@ class NewsTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        //بستخدمها عشان ادي porder معين للصورة
+        //بستخدمها عشان ادي border معين للصورة
         ClipRRect(
           borderRadius: BorderRadius.circular(6),
           child: articleModel.image != null
